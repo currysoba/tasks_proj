@@ -24,7 +24,7 @@ def test_replace():
 def test_defaults():
     """Using no parameters should invoke defaults."""
     t1 = Task()
-    t2 = Task(None, None, False, None)
+    t2 = Task(1, None, False, None)
     assert t1 == t2
 
 
